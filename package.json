@@ -1,0 +1,28 @@
+{
+  "name": "addapi",
+  "version": "1.0.0",
+  "description": "A simple API made with express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FireStreaker2/AddAPI.git"
+  },
+  "keywords": [
+    "api",
+    "FireStreaker2",
+    "nodejs",
+    "add"
+  ],
+  "author": "FireStreaker2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FireStreaker2/AddAPI/issues"
+  },
+  "homepage": "https://github.com/FireStreaker2/AddAPI#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
