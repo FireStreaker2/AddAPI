@@ -9,18 +9,61 @@
         <meta name=”copyright” content=”FireStreaker2”>
         <meta property="og:title" content="AddAPI" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://addapi.firestreaker2.gq/" />
-        <meta property="og:image" content="https://addapi.firestreaker2.gq/favicon.png" />
+        <meta property="og:url" content="http://addapi.firestreaker2.gq/" />
+        <meta property="og:image" content="http://addapi.firestreaker2.gq/favicon.png" />
         <meta property="og:description" content="AddAPI" />
         <meta name="theme-color" content="#000000">
         <meta name="twitter:card" content="summary_large_image">
         
         <title>AddAPI</title>
-        <link rel="icon" type="image/x-icon" href="./favicon.png" />
+        <link rel="icon" type="image/x-icon" href="favicon.png" />
         <link href="index.css" rel="stylesheet">
     </head>
 
     <body>
-        <h1>AddAPI</h1>
+
+        <img id="logo" src="favicon.png" />
+
+        <div>
+            <h1>AddAPI</h1>
+            <p>A simple API made with <a href="http://expressjs.com/">Express</a>.</p>
+        </div>
+
+        <div>
+            <h1>Usage</h1>
+            <p>just dont use this, theres literally no point</p>
+        </div>
+
+        <div>
+            <h1>How to use</h1>
+            <p>You can get started immediately!</p>
+
+            <div>
+                <h1>Via Browser</h1>
+                <p id="website">You can visit <a href="http://addapi.firestreaker2.gq/add?x=1&y=1">http://addapi.firestreaker2.gq/add?x=1&y=1</a> anytime to get a result.</p>
+            </div>
+
+            <strong id="note">NOTE: THE PARAMETERS YOU HAVE TO PROVIDE ARE X AND Y, WHERE X IS THE FIRST INTEGER AND Y IS THE SECOND INTEGER. AS IMPLIED, YOU MUST USE INTEGERS, OTHERS IT WONT WORK. THIS APPLIES TO BOTH ABOVE AND BELOW.</strong>
+
+            <div>
+                <h1>Via Code</h1>
+                <select id="input">
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="curl">cURL</option>
+                </select>
+                <pre id="output"></pre>
+            </div>
+        </div>
+
+        <div id="separator"></div>
+
+        <footer>
+            <p id="copyright">© 2023 FireStreaker2. All rights reserved.</p>
+            <a href="https://github.com/FireStreaker2/AddAPI">Source Code</a>
+        </footer>
+
+        <script src="index.js"></script>
+
     </body>
 </html>
